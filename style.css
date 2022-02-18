@@ -1,0 +1,17 @@
+@font-face {
+    font-family: ostrichSansHeavy;
+    src: url(font/OstrichSans-Heavy.otf);
+}
+@font-face {
+    font-family: ostrichSansMedium;
+    src: url(font/OstrichSans-Medium.otf);
+}
+html,body {
+    padding:0;
+    margin: 0;
+    display: flex;
+    font-family: ostrichSansMedium;
+}
+.emphasis{
+    font-style:italic;
+}
