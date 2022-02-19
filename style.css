@@ -3,15 +3,87 @@
     src: url(font/OstrichSans-Heavy.otf);
 }
 @font-face {
-    font-family: ostrichSansMedium;
-    src: url(font/OstrichSans-Medium.otf);
+    font-family: ostrichregular;
+    src: url(font/ostrich-regular.otf);
+}
+:root {
+    --color-main-background: rgb(247, 247, 247);
+    --color-submission-background:white;
+    --text-color:black;
+    --btn-background-color:rgb(0,0,0);
+    --input-background-color:white;
+
+}
+@media (prefers-color-scheme: dark){
+    :root{
+        --color-main-background: rgb(75, 74, 74);
+        --color-submission-background:rgb(122, 122, 122);
+        --text-color:white;
+        --input-background-color:rgb(185, 185, 185);
+    }
+}
+#background-scenary{
+    width: min(40vw,1000px);
+}
+small{
+    font-size:10px;
+}
+input{
+    margin: 0;
+    border-style: solid;
+    border-color: #E5E7EB;
+    border-radius: 5px ;
+    background-color: var(--input-background-color);
+}
+input:focus {
+    outline: none;
 }
 html,body {
     padding:0;
     margin: 0;
     display: flex;
-    font-family: ostrichSansMedium;
+    font-family: ostrichregular, sans-serif;
+    font-size: 15px;
+    background-color: var(--color-main-background);
+    color: var(--text-color);
 }
-.emphasis{
-    font-style:italic;
+legend{
+    font-family: ostrichSansHeavy, sans-serif;
+}
+button{
+    margin: 0;
+    padding: 10px;
+    border: 0;
+    width: min(5vw,256px);
+}
+fieldset {
+    display: flex;
+    height: min(20vh,300px);
+    border: 0;
+    margin: 0;
+    padding: 0;
+    flex-direction: column;
+    background-color:var(--color-submission-background);
+    flex-wrap: wrap;
+    gap:15px;
+}
+input {
+    width: 150px;
+}
+label{
+    font-size: 12px;
+}
+#fieldset-title{
+    display: block;
+}
+#intro-text{
+    font-family: ostrichSansHeavy, sans-serif;
+    text-align: end;
+    font-size: 36px;
+    margin:min(2vw,36px);
+    height: min(30vh,500px);
+}
+.input-container{
+    display: flex;
+    flex-direction: column;
 }

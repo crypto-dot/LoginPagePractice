@@ -6,15 +6,44 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="intro-text">This is not a real online serivce! You need this service to succeed in life. Sign up <span class="emphasis">now</span> to get started</div>
-    <div class="submission-info-container">
-        <fieldset>
-            <caption>Let's do this!</caption>
+    <div class="left-hand-container">
+
+    </div>
+    <img id="background-scenary" src="images/blake-verdoorn-cssvEZacHvQ-unsplash.jpg">
+    <div id="right-hand-container">
+    <p id="intro-text">This is not a real online serivce! You need this service to succeed in life. Sign up<em>now </em> to get started</p>
+    <form id="submission-info-container">
+    <fieldset>
+            <div id="fieldset-title">Let's do this!</div>
+            <div class="input-container">
+                <label for="First_Name">First Name</label>
+                <input type="text" maxlength="30"  name="FirstName" placeholder="First Name">
+            </div>
+            <input type="email" maxlength="30" name="Email" placeholder="Email">
+            <input id="password" minlength="8" type="password" name="Password" placeholder="Password" onkeyup="check()">
+
+            <input type="text" name="LastName" placeholder="Last Name">
+            <div class="input-container">
+                <label for="Phone_Number">Phone Number</label>
+                <input type="tel" name="PhoneNumber" minlength= "10" maxlength="10" placeholder="2123349921">
+                <small>Format: 321-456-7890</small>
+            </div>
+            <input id="passwordConfirm" minlength="8" type="password" placeholder="Password" onkeyup="check()">
         </fieldset>
+    </form>
+    <div id="passwordMessage">
+        <p>Password Must Contain The Following</p>
+        <p id="lowercase" class="invalid">A <b>lowercase</b> letter</p>
+        <p id="upppercase" class="invalid"> A <b>uppercase</b> letter</p>
+        <p id="number" class="invalid">A <b>number</b></p>
+        <p id="length" class="invalid">At least <b>8 characters</b></p>
+        <p id="symbol" class="invalid"> A special symbol <b>&nbsp;!"#$%&'()*+,-./:;&gt;=&lt;?@[\]^_`{|}~</b></p>
+
     </div>
     <div class="account-action-section">
-        <button></button>
+        <button>Create Account</button>
         <div></div>
+    </div>
     </div>
     
 </body>
