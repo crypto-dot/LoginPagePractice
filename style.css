@@ -50,12 +50,9 @@ html,body {
     padding:0;
     margin: 0;
     display: flex;
-    font-family: ostrichregular, sans-serif;
+    font-family: ostrichSansHeavy, sans-serif;
     background-color: var(--color-main-background);
     color: var(--text-color);
-}
-legend{
-    font-family: ostrichSansHeavy, sans-serif;
 }
 fieldset {
     display: flex;
@@ -70,7 +67,6 @@ label{
     font-size: .9rem;
 }
 .intro-text{
-    font-family: ostrichSansHeavy, sans-serif;
 
     font-size: 2rem;
     margin-left: min(2vw,36px);
@@ -120,7 +116,7 @@ a {
 .left-hand-container {
     width: min(35vw,900px);
     height: 100vh;
-    background-image: url("images/background.jpg");
+    background-image: url("images/background.jp");
     background-repeat: no-repeat;
     background-position: top left;
 }
