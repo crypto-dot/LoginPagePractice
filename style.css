@@ -120,7 +120,7 @@ a {
 .left-hand-container {
     width: min(35vw,900px);
     height: 100vh;
-    background-image: url("images/pexels-cátia-matos-1072179.jpg");
+    background-image: url("images/background.jpg");
     background-repeat: no-repeat;
     background-position: top left;
 }
