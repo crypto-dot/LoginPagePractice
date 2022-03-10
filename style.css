@@ -10,6 +10,7 @@
     font-family: norse;
     src: url("font/Norse-Bold.otf")
 }
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 :root {
     --color-main-background: rgba(247, 247, 247, 0.788);
     --color-submission-background:white;
@@ -64,6 +65,7 @@ fieldset {
     gap:20px;
 }
 label{
+    font-family: "Roboto", sans-serif;
     font-size: .9rem;
 }
 .intro-text{
@@ -105,6 +107,7 @@ input:invalid{
 
 }
 .account-action-section{
+    font-family: "Roboto", sans-serif;
     margin-top: 100px;
     margin-left : min(2vw,30px);
     font-size: .8rem;
@@ -116,7 +119,7 @@ a {
 .left-hand-container {
     width: min(35vw,900px);
     height: 100vh;
-    background-image: url("images/background.jp");
+    background-image: url("images/background.jpg");
     background-repeat: no-repeat;
     background-position: top left;
 }
