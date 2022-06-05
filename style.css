@@ -101,6 +101,11 @@ input[type="submit"] {
     color:white;
     margin: min(2vw,30px);
 }
+input[type="submit"]:hover {
+    cursor:pointer;
+    background-color: rgb(66, 138, 66);
+    
+}
 input:invalid{
     border-style: solid;
     border-color: red;
