@@ -1,3 +1,3 @@
 # LoginPagePractice
-Practice with forms,inputs,positioning, and grid to make a login page.
+Front-end login page made with no frameworks.
 ## LINK - https://crypto-dot.github.io/LoginPagePractice/
